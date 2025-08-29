@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="expression"  id="display">
+
+            </div>
+            <div class="result" id="answer">
+                 Ans
+            </div>
+        </div>
+        <div class="main">
+            <div class="buttons">
+                <button onclick="buttonclickedAC(this)">AC</button>
+                <button onclick="buttonclicked(this)">00</button>
+                <button onclick="buttonclicked(this)">%</button>  
+                <button onclick="buttonclicked(this)" id="operators">/</button>
+            </div>
+            <div class="buttons">
+                <button onclick="buttonclicked(this)">7</button>
+                <button onclick="buttonclicked(this)">8</button>
+                <button onclick="buttonclicked(this)">9</button>  
+                <button onclick="buttonclicked(this)" id="operators">*</button>
+            </div>
+            <div class="buttons">
+                <button onclick="buttonclicked(this)">4</button>
+                <button onclick="buttonclicked(this)">5</button>
+                <button onclick="buttonclicked(this)">6</button>  
+                <button onclick="buttonclicked(this)" id="operators">-</button>
+            </div>
+            <div class="buttons">
+                <button onclick="buttonclicked(this)">1</button>
+                <button onclick="buttonclicked(this)">2</button>
+                <button onclick="buttonclicked(this)">3</button>  
+                <button onclick="buttonclicked(this)" id="operators" >+</button>
+            </div>
+            <div class="buttons">
+                <button onclick="buttonclicked(this)" class="specialbtn">0</button>
+                
+                <button onclick="buttonclicked(this)">.</button>  
+                <button onclick="buttonclickedeql(this)" id="operators">=</button>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
